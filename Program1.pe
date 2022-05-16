@@ -1,0 +1,14 @@
+Declare(int, a)
+Assign(a, 5)
+DeclareAndAssign(int, b, 6)
+Print(a)
+Print(b)
+
+Print("Hello World")
+
+End()
+
+If(Smaller(a, b))
+	Print(“a is bigger than b”)
+else()
+	Print(“a is smaller than b”)

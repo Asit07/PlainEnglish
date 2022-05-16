@@ -1,0 +1,6 @@
+To run the interpretor: python3 final.py
+
+Make sure to change the file name to the Program that you are running in the final.py on line 38, For example if
+we are trying to run Program1.pe, the line 38 will look like "fp = open("Program1.pe", "r")", if we are trying
+to run the Program2.pe, it will look like "fp = open("Program2.pe", "r")" and if we are trying
+to run the Program2.pe, it will look like "fp = open("Program5.pe", "r").

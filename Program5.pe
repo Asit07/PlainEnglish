@@ -1,0 +1,10 @@
+Declare(char, a)
+Assign(z, hello)
+DeclareAndAssign(int, b, hello)
+
+Add(a, z)
+Subtract(5)
+Greater(5)
+Print(1)
+
+End()
