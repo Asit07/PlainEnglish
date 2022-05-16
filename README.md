@@ -1,6 +1,10 @@
 # PlainEnglish
 An educational programming language that is not complicated...
 
+Update
+
+Most functions work! Still needs bug fixing and support for a few more functions!
+
 Extension
 
 .pe -> so for example a file written using the PlainEnglish language will be called, foo.pe
