@@ -1,7 +1,3 @@
-# Joe Hudson and Asit Singh 403
-# Joe Tasks: SplitTokens, Arithmetic Functions, Print() and testing
-# Asit Tasks: Error handling, Logical Functions, End(), Declare and Assign
-
 from curses.ascii import isalpha, isdigit
 import re
 import os
