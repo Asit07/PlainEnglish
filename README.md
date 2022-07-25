@@ -43,7 +43,7 @@ Used to assign value to a variable. Takes two arguments as parameters, first one
 ### Add(5, 6) or Add(a, 5) or Add(a, b):
 Used to increment a variable by a certain amount. Takes two arguments as parameters, first one is the variable name to be incremented; second one is the value that the variable is going to be incremented by.
 
-3## Subtract(5, 6) or Subtract(a, 5) or Subtract(a, b):
+### Subtract(5, 6) or Subtract(a, 5) or Subtract(a, b):
 Used to decrement a variable by a certain amount. Takes two arguments as parameters, first one is the variable name to be decremented; second one is the value that the variable is going to be decremented by.
 
 ### Multiply(5, 6) or Multiply(a, 5) or Multiply(a, b):
@@ -95,7 +95,7 @@ As the main purpose of the language is to introduce coding to young children (be
 ## Examples
 
 ### Program 1: (This program shows how any PlainEnglish language will end after the End() statement, without executing anything after the End() statement)
-
+```
 Declare(int, a)
 Assign(a, 5)
 DeclareAndAssign(int, b, 6) Print(a)
@@ -104,9 +104,9 @@ Print("Hello World") End()
 If(Smaller(a, b))
 Print(“a is bigger than b”) else()
 Print(“a is smaller than b”)
-
+```
 ### Program 2: (This program shows the implementation for every function that has bee implemented)
-
+```
 Declare(int, a)
 Declare(string, f)
 Assign(f, hello) Declare(string, d)
@@ -125,17 +125,18 @@ Mod(a, b)
 Mod(5, 6)
 Greater(a, 5) Greater(a, b) Greater(5, 6) Smaller(a, 5) Smaller(a, b) Smaller(5, 6) GreaterOrEqual(a, 5) GreaterOrEqual(a, b) GreaterOrEqual(5, 6) SmallerOrEqual(a, 5) SmallerOrEqual(a, b) SmallerOrEqual(5, 6)
 End()
+```
 
 ### Program 3: (This program shows how the loop would function in PlainEnglish)
-
+```
 Declare(int, a)
 Assign(a, 6) DeclareAndAssign(int, b, 7)
 here
 Subtract(a, 1) If(GreaterOrEqual(a, 0))
 GoTo(here) End()
-
+```
 ### Program 4: (This program shows the implementation of some more If() and Else() statements)
-
+```
 Declare(int, a)
 Assign(a, 6)
 DeclareAndAssign(int, b, 7)
@@ -148,15 +149,15 @@ print(“a is equal to b and PlainEnglish is awesome!”)
 Else()
 print(“This language sucks and does not work!”)
 End()
-
+```
 ### Program 5: (This program shows our implementation for the error handling capabilities for our program)
-
+```
 Declare(char, a)
 Assign(z, hello)
 DeclareAndAssign(int, b, hello)
 Add(a, z) Subtract(5) Greater(5) Print(1)
 End()
-
+```
 ## Future Growth Potential
 
 - New function support:
@@ -171,9 +172,9 @@ to implement the DeclareFun() function which can declare a function as defined u
 - Implement a more robust error handling
 - Add looping abilities by using If() and GoTo()
 
-##Implementation
+## Implementation
 
-###Following are the bugs that we are aware of and are working on fixing:
+### Following are the bugs that we are aware of and are working on fixing:
 - Only the Program 2 works fully as If, Else, GoTo and here were not implemented.
 - Loop has not been implemented as If, Else, GoTo has not been implemented.
 - Error handling works but not everytime
