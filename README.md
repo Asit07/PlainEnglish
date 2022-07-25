@@ -28,7 +28,7 @@ Supports all arithmetic {Add(), Subtract(), Multiply(), Divide(), Mod()} and log
 ### String: 
 Supports the operation Add()
 
-###Float: 
+### Float: 
 Supports all arithmetic {Add(), Subtract(), Multiply(), Divide(), Mod()} and logical operations {Greater(), GreaterOrEqual(), Smaller(), SmallerOrEqual(), Equal()}
 
 ### Bool: 
